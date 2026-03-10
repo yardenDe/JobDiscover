@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 from src.core.database import DBManager
 from src.repositories.job_repository import JobRepository
 
-
 load_dotenv()
 
 class AppFactory:
@@ -23,3 +22,9 @@ class AppFactory:
             db = AppFactory.get_db_manager()
             AppFactory._repo_instance = JobRepository(db)
         return AppFactory._repo_instance
+
+    @staticmethod
+    def get_all_scrapers() -> list:
+
+        repo = AppFactory.get_job_repository()
+        
