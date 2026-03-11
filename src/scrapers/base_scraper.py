@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from playwright.async_api import async_playwright
 from src.repositories.job_repository import JobRepository
-from src.models.job import JobModel
+from src.models.jobs import JobModel
 
 class BaseScraper(ABC):
     def __init__(self, repository: JobRepository):

@@ -1,5 +1,5 @@
-from src.core.database import DBManager
-from src.models.job import JobModel
+from src.core.db_manager import DBManager
+from src.models.jobs import JobModel
 
 class JobRepository:
     def __init__(self, db: DBManager):

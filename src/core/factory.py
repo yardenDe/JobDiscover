@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from src.core.database import DBManager
+from src.core.db_manager import DBManager
 from src.repositories.job_repository import JobRepository
 
 load_dotenv()
