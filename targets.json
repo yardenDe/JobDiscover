@@ -1,0 +1,27 @@
+[
+    {
+        "company": "Intel",
+        "url": "https://intel.wd1.myworkdayjobs.com/External",
+        "platform": "workday"
+    },
+    {
+        "company": "Monday.com",
+        "url": "https://boards.greenhouse.io/mondaydotcom",
+        "platform": "greenhouse"
+    },
+    {
+        "company": "AppsFlyer",
+        "url": "https://www.comeet.com/jobs/appsflyer/",
+        "platform": "sparkhire"
+    },
+    {
+        "company": "Palo Alto Networks",
+        "url": "https://jobs.lever.co/paloaltonetworks",
+        "platform": "lever"
+    },
+    {
+        "company": "Check Point",
+        "url": "https://careers.checkpoint.com/index.php?cnt=search_job",
+        "platform": "smart_recruiters"
+    }
+]
