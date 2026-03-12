@@ -1,6 +1,6 @@
 ﻿from src.scrapers.base_scraper import BaseScraper
 
-class SparkhireScraper(BaseScraper):
+class SparkHireScraper(BaseScraper):
     def extract_jobs(self, soup):
         found_jobs = []
         jobs = soup.select('.job-listing') # Assuming standard Sparkhire listing class

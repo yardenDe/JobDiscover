@@ -8,7 +8,7 @@ from src.services.discovery import DiscoveryService
 
 async def main():
     # 1. Initialize Infrastructure
-    db_manager = DBManager("jobs.db")
+    db_manager = DBManager("sqlite:///jobs.db")
     repository = JobRepository(db_manager)
     
     # 2. Initialize Services
